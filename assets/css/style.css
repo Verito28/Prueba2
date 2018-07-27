@@ -1,0 +1,128 @@
+body{
+	margin-top: 0px;
+	background-color: #b7b7b7;
+}
+h1, h2, h3 {
+  font-family: 'chivo', sans-serif;
+}
+
+p, li, a, small {
+  font-family: 'catamaran', sans-serif;
+  color: #000;
+  
+}
+hr{
+
+	border: solid 0.5px #CFCFCF ;
+}
+.row{
+padding-top: 10px;
+}
+.sidebar{
+
+	height: 100vw;
+	margin-bottom: 10px;
+
+}
+.profile{
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+.profile__selector{
+	border-radius: 20px;
+	max-width: 100%;
+	z-index: 9999;
+	background-color: silver;
+	overflow: hidden;
+	position: absolute;
+	box-sizing: border-box;
+	display: none;
+
+
+
+}
+.profile__selector img {
+	width: 85px;
+	height: 85px;
+	float: left;
+	border-radius: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+
+}
+.profile__img{
+	border-radius: 20px;
+	padding: 10px;
+	max-width: 100%;
+	position: relative;
+}
+.profile__img span{
+	cursor: pointer;
+}
+.profile__img--sidebar{
+	border-radius: 5px;
+
+}
+.profile__img--twits{
+	border-radius: 50%;
+	width: 100px;
+
+}
+
+.profile__img span{
+	
+	color: silver;
+	position: absolute;
+	padding: 5px;
+	
+
+
+}
+
+.profile__form textarea{
+	border-radius: 10px;
+	padding: 10px;
+	
+	width: 100%;
+
+}
+.profile__form button{
+	border-radius: 10px;
+	padding: 10px;
+	width: 100%;
+	font-size: 15px;
+}
+.profile__form {
+	text-align: center;
+
+}
+.twitts{
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.twitts__footer{
+	text-align: right;
+	color: #ccc;
+
+}
+
+
+.twitts__footer span, i{
+	padding: 5px;
+	cursor: pointer;
+	
+}
+
+.twitts__footer--like{
+	color: tomato;
+}
+
+
